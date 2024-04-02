@@ -9,7 +9,7 @@ try {
 
 const Card = ({ id, title, total_items, total_weight, status }) => (
     <div key={id} className='bg-white p-4 rounded-md border-2 border-[#ec955f] relative'>
-      <h2 className="text-lg font-semibold mb-2">{title}</h2>
+      <h2 className="text-xl font-bold mb-2">{title}</h2>
       <div className="flex">
         <div className="flex flex-col mr-4">
           <p className="text-sm mb-2">Total Items: <strong>{total_items}</strong></p>

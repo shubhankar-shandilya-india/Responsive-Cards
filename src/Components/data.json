@@ -1,0 +1,13 @@
+[
+    {"id": 1, "title": "Crockery House", "total_items": 7, "total_weight": "7Kg", "status":"PENDING"},
+    {"id": 2, "title": "Crockery House", "total_items": 10, "total_weight": "5Kg", "status":"PENDING"},
+    {"id": 3, "title": "Crockery House", "total_items": 4, "total_weight": "8Kg", "status":"SHIPPED"},
+    {"id": 4, "title": "Crockery House", "total_items": 6, "total_weight": "6Kg", "status":"PENDING"},
+    {"id": 5, "title": "Crockery House", "total_items": 3, "total_weight": "12Kg", "status":"PENDING"},
+    {"id": 6, "title": "Crockery House", "total_items": 2, "total_weight": "15Kg", "status":"SHIPPED"},
+    {"id": 7, "title": "Crockery House", "total_items": 5, "total_weight": "9Kg", "status":"PENDING"},
+    {"id": 8, "title": "Crockery House", "total_items": 8, "total_weight": "10Kg", "status":"SHIPPED"},
+    {"id": 9, "title": "Crockery House", "total_items": 12, "total_weight": "4Kg", "status":"PENDING"},
+    {"id": 10, "title": "Crockery House", "total_items": 7, "total_weight": "7Kg", "status":"PENDING"}
+  ]
+  

@@ -8,21 +8,18 @@ try {
 }
 
 const Card = ({ id, title, total_items, total_weight, status }) => (
-    <div key={id} className='bg-white p-4 rounded-md border-2 border-[#ec955f] relative'>
+    <div key={id} className='bg-white p-4 rounded-md border-2 border-[#ec955f]'>
       <h2 className="text-xl font-bold mb-2">{title}</h2>
-      <div className="flex">
+      <div className="flex justify-around">
         <div className="flex flex-col mr-4">
           <p className="text-sm mb-2">Total Items: <strong>{total_items}</strong></p>
           <p className="text-sm mb-2">Total Weight:<strong> {total_weight}</strong></p>
           <p className="text-sm"><strong>Status:</strong> <span className={status === 'SHIPPED' ? 'text-green-500 text-md' : 'text-red-500 text-md'}><strong>{status}</strong></span></p>
         </div>
-        <button className="bg-[#ff5858] text-white px-2 rounded-md absolute right-0 -mr-2 py-5">Update dimension</button>
+        <button className="bg-[#ff5858] text-white px-1 rounded-md ">Update dimension</button>
       </div>
     </div>
   );
-  
-  
-
 Card.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
